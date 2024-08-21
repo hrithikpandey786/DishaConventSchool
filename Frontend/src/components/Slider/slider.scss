@@ -1,0 +1,19 @@
+.slider-container{
+    width: '600px';
+    height: '300px';
+    overflow: 'hidden';
+    position: 'relative';
+    margin: 'auto';
+    border-radius: '10px';
+    box-shadow: '0 4px 8px rgba(0, 0, 0, 0.2)';
+    
+    .slide{
+        display: flex;
+        transition: 'transform 3s ease-in-out';
+    }
+    
+    img{
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+}
